@@ -110,19 +110,19 @@ GEM
     bundler-audit (0.9.3)
       bundler (>= 1.2.0)
       thor (~> 1.0)
-    cgi (0.5.1)
+    cgi (0.5.2)
     climate_control (1.2.0)
     concurrent-ruby (1.3.6)
     connection_pool (3.0.2)
     crass (1.0.6)
-    datadog (2.31.0)
+    datadog (2.32.0)
       cgi
       datadog-ruby_core_source (~> 3.5, >= 3.5.2)
       libdatadog (~> 30.0.0.1.0)
       libddwaf (~> 1.30.0.0.0)
       logger
       msgpack
-    datadog-ruby_core_source (3.5.2)
+    datadog-ruby_core_source (3.5.4)
     date (3.5.1)
     debug (1.11.1)
       irb (~> 1.10)
@@ -201,7 +201,7 @@ GEM
     marcel (1.1.0)
     mini_mime (1.1.5)
     minitest (5.27.0)
-    msgpack (1.8.0)
+    msgpack (1.8.4)
     net-imap (0.6.4)
       date
       net-protocol
@@ -430,7 +430,7 @@ DEPENDENCIES
   brakeman
   bundler-audit
   climate_control
-  datadog (~> 2.0)
+  datadog (~> 2.32)
   debug
   dotenv-rails
   jwt

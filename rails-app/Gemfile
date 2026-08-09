@@ -55,7 +55,7 @@ end
 gem "stoplight", "~> 5.8"
 gem "aws-sdk-sqs"
 gem "shoryuken"
-gem "datadog", "~> 2.0"
+gem "datadog", "~> 2.32"
 
 gem "pg-aws_rds_iam", "~> 0.8.0"
 
